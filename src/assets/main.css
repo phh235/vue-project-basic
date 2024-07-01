@@ -1,0 +1,72 @@
+@import "./base.css";
+
+body {
+  margin: 0;
+  font-family: "Google Sans";
+}
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+  float: left;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 10px;
+  border-radius: 8px;
+  transition: all 0.1s;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #34495e;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  filter: brightness(1.1);
+}
+
+.btn-secondary {
+  background-color: #41b883;
+}
+
+.topnav img.logo {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+input {
+  font-family: "Google Sans";
+  width: 100%;
+  padding: 1.2rem 1.2rem;
+  font-size: 16px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+}
+.group-card {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.card-item {
+  border-radius: 10px;
+  background: #34495e;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.8rem 1.2rem;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.1s;
+}
+.card-item:hover {
+  filter: brightness(1.2);
+}
